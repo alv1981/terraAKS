@@ -1,2 +1,2 @@
-variable "rg_name"{}
+
 
