@@ -1,2 +1,4 @@
-variable "rg_name" {}
+variable "rg_name" {
+  default= "aks-pro"	
+	}
 	
