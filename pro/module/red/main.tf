@@ -8,4 +8,11 @@ resource "azurerm_virtual_network" "red_aks" {
     tags = {
         environment = "aks-pro"
     }
+    
 }
+resource "azurerm_resource_group" "rg" {
+        name = "${var.rg_name}"
+        location = "westus"
+        tags = {
+        environment = "aks-pro"
+            }
