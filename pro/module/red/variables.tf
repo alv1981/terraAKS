@@ -1,4 +1,4 @@
 variable "rg_name" {
-  default= "aks-pro"	
-	}
+  default  = "aks-pro"	
+}
 	
