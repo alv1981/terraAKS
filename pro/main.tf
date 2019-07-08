@@ -1,6 +1,15 @@
 provider "azurerm" {
 }
+terraform {
+  backend "azurerm" {
+    storage_account_name = "tfstalabscastillo"
+    container_name       = "tfstate"
+    key                  = "prod.terraform.tfstate"
 
+   
+    
+  }
+}
     
  
 module "red" {
