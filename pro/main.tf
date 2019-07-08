@@ -6,7 +6,7 @@ data "terraform_remote_state" "pro" {
     storage_account_name = "tfstalabscastillo"
     container_name       = "tfstate"
     key                  = "prod.terraform.tfstate"
-
+    resource_group_name  = "aks-pro" 
    
     
   }
