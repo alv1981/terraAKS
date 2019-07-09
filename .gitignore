@@ -7,3 +7,4 @@
 
 # .tfvars files
 *.tfvars
+variables_access_azure.sh
