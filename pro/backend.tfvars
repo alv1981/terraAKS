@@ -1,5 +1,5 @@
 storage_account_name = "tfstalabscastillo"
 container_name       = "tfstate"
-key                  = "prod/aks.tfstate"
+key                  = "pro/aks_pro.tfstate"
 resource_group_name  = "aks-pro"
-access_key           = "5hdJ0UfY6zX2hwddnllVhBRLOmpgystxIyMmhoBcira+MSdRPLLMeHTExn4JFIscPDuL/4TkhKbl/6VVX9lIdA=="
+access_key           = "dU7trMdxJfHuUA2ZUX6IeXx2IG7bhi63xWd2iYXRLilLttD9qmyEwgB9lez0G7RRjOuHNMKCdk2m58rVKlDJ7g=="
